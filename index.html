@@ -1,0 +1,416 @@
+<head>
+    <link href="https://vjs.zencdn.net/7.10.2/video-js.css" rel="stylesheet" />
+
+    <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+    <!-- <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>SORTFILM TALKIES </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+
+
+</head data-cast-api-enabled="true">
+
+
+<style>
+    .video-js .customOverlay {
+        color: yellow;
+        background-color: transparent;
+    }
+
+    .vjs-overlay.vjs-overlay-top .vjs-overlay-background {
+        width: 100%;
+        margin: auto;
+        left: 0;
+        background: none;
+
+
+    }
+
+    .hide-overlay.vjs-overlay {
+        display: none;
+    }
+
+    .bcls-hide-overlay {
+        opacity: 0;
+        -webkit-transition-property: opacity;
+        -webkit-transition-duration: 5s;
+        -webkit-transition-timing-function: ease;
+        transition-property: opacity;
+        transition-duration: 5s;
+        transition-timing-function: ease;
+    }
+
+    .video-js .vjs-overlay {
+        /* background-color: none; */
+        border-radius: 3px;
+        color: #fff;
+        padding: 10px;
+        position: absolute;
+        text-align: center;
+        width: 33%;
+    }
+
+    .video-js .vjs-overlay-top-left {
+        top: 5px;
+        left: 5px;
+    }
+
+    .video-js .vjs-overlay-top {
+        left: 50%;
+        margin-left: -16.5%;
+        top: 5px;
+    }
+
+    .video-js .vjs-overlay-top-right {
+        right: 5px;
+        top: 5px;
+    }
+
+    .video-js .vjs-overlay-right {
+        margin-top: -15px;
+        right: 5px;
+        top: 50%;
+    }
+
+    .video-js .vjs-overlay-bottom-right {
+        bottom: 4em;
+        right: 5px;
+    }
+
+    .video-js .vjs-overlay-bottom {
+        bottom: 4.5em;
+        left: 50%;
+        margin-left: -16.5%;
+    }
+
+    .video-js .vjs-overlay-bottom-left {
+        bottom: 4.5em;
+        left: 5px;
+    }
+
+    .video-js .vjs-overlay-left {
+        left: 5px;
+        margin-top: -15px;
+        top: 50%;
+    }
+
+    .video-js .vjs-tech {
+        position: absolute;
+        top: -20;
+    }
+</style>
+<link rel="stylesheet" href="wrapcard.css">
+
+
+
+<hre <script src="node_modules\video.js\dist\video.min.js">
+    </script>
+    <script src="node_modules\videojs-contrib-quality-levels\dist\videojs-contrib-quality-levels.min.js"></script>
+    <script src="node_modules\videojs-hls-quality-selector\dist\videojs-hls-quality-selector.min.js"></script>
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+    <script src="https://cdn.sc.gl/videojs-hotkeys/0.2/videojs.hotkeys.min.js"></script>
+
+
+
+
+
+    <body>
+
+
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-3">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand mr-3">SHORTFILM TALKIES</a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="#" class="nav-item nav-link active">Home</a>
+                        <a href="#" class="nav-item nav-link">Services</a>
+                        <a href="#" class="nav-item nav-link">About</a>
+                        <a href="#" class="nav-item nav-link">Contact</a>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+        <video id="movie" class="video-js vjs-big-play-centered" width="140" height="464" controls preload="auto"
+            data-setup="{}">
+            <track kind='captions' src='https://dotsub.com/media/5d5f008c-b5d5-466f-bb83-2b3cfa997992/c/chi_hans/vtt'
+                srclang='zh' label='Chinese' default />
+            <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a
+                web browser that
+                <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+            </p>
+        </video>
+
+
+
+
+        <script src="https://vjs.zencdn.net/7.10.2/video.min.js"></script>
+        <script src="video-player.js"></script>
+
+
+
+
+        <!-- plugins -->
+
+        <script src="node_modules\videojs-hotkeys\videojs.hotkeys.min.js"></script>
+
+        <!-- <script src="http://www.gstatic.com/cv/js/sender/v1/cast_sender.js"></script> <!-- add chromecast sdk -->
+        <!-- <script src="node_modules\videojs-chromecast\dist\videojs-chromecast.min.js"> </script> -->
+        <script src="node_modules\videojs-overlay\dist\videojs-overlay.min.js"></script>
+
+
+        <script src="node_modules\videojs-social-share-overlay\dist\videojs-social-share-overlay.min.js "></script>
+
+
+        </div>
+
+
+
+
+        <div class="row" style="padding: 20px;">
+            <div class=" col-md-4" style="background-color:#343a40!important  ;  box-shadow:
+            0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+            0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+            0 12.5px 10px rgba(0, 0, 0, 0.06),
+            0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+            0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+            0 100px 80px rgba(0, 0, 0, 0.12);">
+                <h2 style="size: inherit;color: white;">REWIND</h2>
+                <p style="color: white;">HTML is the standard markup language for describing the structure of the web
+                    pages. Our HTML
+                    tutoria.</p>
+                <p><a href="https://www.tutorialrepublic.com/html-tutorial/" target="_blank"
+                        class="btn btn-success">Learn
+                        More »</a></p>
+            </div>
+
+
+            <div class="col-md-4 " style=" box-shadow:
+            0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+            0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+            0 12.5px 10px rgba(0, 0, 0, 0.06),
+            0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+            0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+            0 100px 80px rgba(0, 0, 0, 0.12)" ;>
+                <h2>CSS</h2>
+                <p>CSS is used for describing the presentation of web pages. CSS can save a lot of time and effort. Our
+                    CSS tutorials will help you to learn the essentials of latest CSS3, so that you can control the
+                    style and layout of your website.</p>
+                <p><a href=" https://www.tutorialrepublic.com/css-tutorial/" target="_blank" class="btn btn-success">
+                        Learn
+                        More »</a></p>
+            </div>
+
+            <br>
+            <br>
+
+
+
+
+
+            <div class="col-md-4 " style="background-color:#343a40!important ;">
+                <h2 style="color: white;">Bootstrap</h2>
+                <p style="color: white;">Bootstrap is a powerful front-end framework for faster and easier
+                    web development. Our Bootstrap
+                    tutorials will help you to learn all the features of latest Bootstrap 4 framework so that you can
+                    easily create responsive websites.</p>
+                <p><a href="https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/" target="_blank"
+                        class="btn btn-success">Learn More »</a></p>
+            </div>
+
+
+        </div>
+
+        <div class="row-md-4">
+
+            <p style=" font-weight: bold;">TOP BILLED CAST</p>
+            <!-- <h2>Bootstrap</h2> -->
+            <!-- <p>Bootstrap is a powerful front-end framework for faster and easier web development. Our Bootstrap
+            tutorials will help you to learn all the features of latest Bootstrap 4 framework so that you can
+            easily create responsive websites.</p> -->
+            <div class="scrolling-wrapper">
+                <div class="id1-card2">
+                    <!-- <h2>Card</h2> -->
+                    <img src="images\ganesh.png" alt="">
+                    <p style="text-align: center;">Ganesh kini</p>
+
+
+
+
+                </div>
+
+
+                <div class="id1-card2">
+
+                    <img src="images\akhilesh.jpg" alt="">
+                    <p style="text-align: center;">Akhilesh Rao</p>
+
+                </div>
+                <div class="id1-card2">
+                    <img src="images\shashank.jpg" alt="">
+                    <p style="text-align: center;">Shashank Nayak</p>
+
+                </div>
+
+
+
+
+                <div class="id1-card2">
+                    <img src="images\pavan.jpg" alt="">
+                    <p style="text-align: center;">Pavan Shetty</p>
+
+
+
+
+                </div>
+
+                <div class="id1-card2">
+                    <img src="images\nithin.jpg" alt="">
+                    <p style="text-align: center;">Nithin Alva</p>
+
+
+
+
+                </div>
+
+                <div class="id1-card2">
+                    <img src="images\krithika.jpg" alt="">
+                    <p style="text-align: center;">Krithika Pai</p>
+
+
+
+
+
+
+                </div>
+                <div class="id1-card2">
+                    <img src="images\akashbpc.jpg" alt="">
+                    <p style="text-align: center;">Akash BPC</p>
+
+
+                </div>
+
+                <div class="id1-card2">
+                    <img src="images\yatish.jpg" alt="">
+                    <p style="text-align: center;">Yatish V</p>
+
+
+                </div>
+
+                <div class="id1-card2">
+                    <img src="images\ranjith1.jpg" alt="">
+                    <p style="text-align: center;">ranjith </p>
+
+
+                </div>
+
+                <div class="id1-card2">
+                    <img src="images\kifu.jpg" alt="">
+                    <p style="text-align: center;">Kifayath Mansoor</p>
+
+
+                </div>
+
+                <div class="id1-card2">
+                    <img src="images\soundarya.jpg" alt="">
+                    <p style="text-align: center;">Soundarya Raviraj</p>
+
+
+                </div>
+                <div class="id1-card2">
+                    <img src="images\nikhil.jpg" alt="">
+                    <p style="text-align: center;">Nikhil Sanil</p>
+
+
+                </div>
+                <div class="id1-card2">
+                    <img src="images\raja.jpg" alt="">
+                    <p style="text-align: center;">Tilak Raj</p>
+
+
+                </div>
+
+                <div class="id1-card2">
+                    <img src="images\roshan.jpg" alt="">
+                    <p style="text-align: center;">Roshan Kotian</p>
+
+
+                </div>
+
+
+
+                <div class="id1-card2">
+                    <img src="images\akash.jpg" alt="">
+                    <p style="text-align: center;">Akash Shetty</p>
+
+
+                </div>
+
+
+
+
+
+                <!-- <div class="id1-card2">
+                    <h2>Card</h2>
+                </div>
+                <div class="id1-card2">
+                    <h2>Card</h2>
+                </div>
+                <div class="id1-card2">
+                    <h2>Card</h2>
+                </div> -->
+            </div>
+            <!-- <p><a href="https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/" target="_blank" -->
+            <!-- class="btn btn-success">Learn More »</a></p> -->
+        </div>
+
+
+
+        <hr>
+        <footer>
+            <div class="row" style="background-color: #343a40!important ; text-align: center;">
+                <div class="col-md-6" style="background-color: #343a40!important;">
+                    <p style="color: white ; text-align: center;">Copyright &copy; INSIDE STORIES</p>
+                </div>
+                <!-- <div class="col-md-6 text-md-right">
+                <a href="#" class="text-dark">Terms of Use</a>
+                <span class="text-muted mx-2">|</span>
+                <a href="#" class="text-dark">Privacy Policy</a>
+            </div> -->
+            </div>
+
+        </footer>
+        </div>
+
+
+
+
+
+    </body>
